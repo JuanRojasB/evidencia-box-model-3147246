@@ -1,0 +1,104 @@
+/*
+Box model
+1. La etiqueta debe tener:
+    - contenido
+    - width and height
+2. La etiqueta debe tener display:block
+    Implica:
+    Ocupar todo el ancho de la pantalla
+*/
+.box{
+    
+    height: 200px;
+}
+
+#caja1{
+    display: block;
+    /*border: necesita
+        - estilo de borde
+        - ancho de border
+        - color de border
+    */
+    border: rgba(63, 95, 74, 0.8) 3px dashed;
+    margin: 100px 200px 100px 50px;
+}
+
+
+.box1{
+    background-color : salmon;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    box-sizing: border-box;
+
+}
+
+.box2{
+    background-color: rgb(183, 187, 135);
+    padding: 30px 84px 10px 20px;
+    margin-top: 120px;
+
+}
+
+#caja2{
+    display: block;
+    width: 300px;
+    border-top: #bd4516 10px solid;
+    border-left: #3669a3 20px inset;
+    border-bottom: greenyellow 30px double;
+    border-right: brown 40px ridge;
+    margin: 50px;
+}
+
+.caja3{
+    display: block;
+    margin: 50px;
+    margin-bottom: 15px;
+}
+
+.box3{
+    background-color: #79c8ce;
+    padding: 50px 40px 10px;
+    border-style: outset;
+    border-width: 50px;
+    border-color: gold;
+    border-left-color: bisque;
+    border-left-style: dashed;
+    border-left-width: 60px;
+    border-right-color:rgba(63, 95, 74, 0.8);
+    box-sizing: border-box;
+
+    
+}
+
+.caja4{
+    display: block;
+    margin: 100px;
+}
+
+.box4{
+    background-color: slateblue;
+    padding: 50px 40px 4px;
+    border-style: outset;
+    border-width: 70px;
+    border-color: silver;
+    border-left-color: goldenrod;
+    border-left-style: solid;
+    border-left-width: 60px;
+    border-right-color: burlywood;
+    border-right-style: inset;
+    border-right-width: 30px;
+    border-bottom-color: seagreen;
+    border-bottom-style: dashed;
+    border-bottom-width: 20px;
+    border-top-color: purple;
+    border-top-style: groove;
+    border-top-width: 70px;
+
+    
+}
+
+
+
+
